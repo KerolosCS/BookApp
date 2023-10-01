@@ -1,3 +1,17 @@
+/*
+ *
+ *
+ *
+ * ----------------
+ * | 241030072002 |
+ * ----------------
+ * Copyright © [2023] KERO CS FLUTTER DEVELOPMENT.
+ * All Rights Reserved. For inquiries or permissions, contact  me ,
+ * https://www.linkedin.com/in/kerolos-fady-software-engineer/
+ *
+ * /
+ */
+
 import 'package:books_app/Features/home/data/repos/home_repo_implement.dart';
 import 'package:books_app/Features/home/pressentation/manger/featuredBooksCubit/featured_books_cubit.dart';
 import 'package:books_app/Features/home/pressentation/manger/newest_books_cubit/cubit/newest_books_cubit.dart';
@@ -57,7 +71,7 @@ class BookApp extends StatelessWidget {
             themeMode: BlocProvider.of<AppMangerCubit>(context).isDark == false
                 ? ThemeMode.light
                 : ThemeMode.dark,
-            debugShowCheckedModeBanner: false,// 
+            debugShowCheckedModeBanner: false, //
           );
         },
       ),

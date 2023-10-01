@@ -1,3 +1,17 @@
+/*
+ *
+ *
+ *
+ * ----------------
+ * | 241030072002 |
+ * ----------------
+ * Copyright © [2023] KERO CS FLUTTER DEVELOPMENT.
+ * All Rights Reserved. For inquiries or permissions, contact  me ,
+ * https://www.linkedin.com/in/kerolos-fady-software-engineer/
+ *
+ * /
+ */
+
 import 'package:books_app/core/app_cubit/cubit/app_manger_cubit.dart';
 import 'package:books_app/core/utils/app_router.dart';
 import 'package:flutter/material.dart';

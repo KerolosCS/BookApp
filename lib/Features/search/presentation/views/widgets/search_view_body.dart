@@ -1,10 +1,26 @@
+/*
+ *
+ *
+ *
+ * ----------------
+ * | 241030072002 |
+ * ----------------
+ * Copyright © [2023] KERO CS FLUTTER DEVELOPMENT.
+ * All Rights Reserved. For inquiries or permissions, contact  me ,
+ * https://www.linkedin.com/in/kerolos-fady-software-engineer/
+ *
+ * /
+ */
+
 import 'package:books_app/Features/search/presentation/views/widgets/search_result_list_view.dart';
 import 'package:books_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'custom_text_form_field.dart';
+
 class SearchViewBody extends StatelessWidget {
-  const SearchViewBody({super.key, });
-  
+  const SearchViewBody({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {

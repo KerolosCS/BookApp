@@ -1,3 +1,17 @@
+/*
+ *
+ *
+ *
+ * ----------------
+ * | 241030072002 |
+ * ----------------
+ * Copyright © [2023] KERO CS FLUTTER DEVELOPMENT.
+ * All Rights Reserved. For inquiries or permissions, contact  me ,
+ * https://www.linkedin.com/in/kerolos-fady-software-engineer/
+ *
+ * /
+ */
+
 import 'package:books_app/core/utils/styles.dart';
 import 'package:flutter/material.dart';
 import 'best_seller_listview.dart';
@@ -9,7 +23,6 @@ class HomeViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     return const SafeArea(
       child: CustomScrollView(
         physics: BouncingScrollPhysics(),
@@ -34,7 +47,6 @@ class HomeViewBody extends StatelessWidget {
             ),
           ),
           SliverToBoxAdapter(
-            
             child: Padding(
               padding: EdgeInsets.symmetric(horizontal: 20),
               child: BestSellerListView(),
